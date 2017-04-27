@@ -1,0 +1,23 @@
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         cacheTokens="true"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false"
+         verbose="false">
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="false">
+            <directory>src/Aspick/</directory>
+        </whitelist>
+    </filter>
+    <testsuites>
+        <testsuite name="Aspick\ImageChecker Test Suite">
+            <directory>tests/Aspick/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

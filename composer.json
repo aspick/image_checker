@@ -1,0 +1,19 @@
+{
+    "name": "aspick/image_checker",
+    "authors": [
+        {
+            "name": "Yugo Terada",
+            "email": "yugo@18th-lab.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Aspick\\ImageChecker": "src/"
+        }
+    }
+
+}
