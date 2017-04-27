@@ -25,6 +25,6 @@ $imagepath = "/path/to/image.png";
 if(\Aspick\ImageChecker\PngChecker::check($imagepath)){
 	echo 'valid';
 }else{
-	dcho 'invalid';
+	echo 'invalid';
 }
 ```
